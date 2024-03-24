@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Signup Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <div class="form signup">
+        <header>Registration Form</header>
+        <form action="#">
+          <input type="text" placeholder="Full name" required />
+          <input type="text" placeholder="Email address" required />
+          <input type="password" placeholder="Password" required />
+          <input type="password" placeholder="Confirm Password" required />
+          <input type="date" placeholder="Enter birth date" required />
+          <div class="gender-box">
+            <h3>Gender</h3>
+            <div class="gender-option">
+              <div class="gender">
+                <input type="radio" id="check-male" name="gender" checked />
+                <label for="check-male">Male</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-female" name="gender" />
+                <label for="check-female">Female</label>
+              </div>
+              <div class="gender">
+                <input type="radio" id="check-other" name="gender" />
+                <label for="check-other">Prefer not to say</label>
+              </div>
+
+            </div>
+          
+
+          
+       
+          <div class="sign" align="center">
+          <input type="submit" value="Signup" />
+          </div>
+          <div class="signup-link">
+            Already have an account?<a href="Login.html">Login Here</a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
